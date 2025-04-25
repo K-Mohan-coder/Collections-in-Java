@@ -1,0 +1,17 @@
+package Collectionsprg;
+import java.util.*;
+
+public class StackPrgs {
+	
+	public static void main(String args[]) {
+		//Pop()
+		//peek()
+		//push()
+		//It is based on the Last-in-first-out
+		//LIFO
+		//
+		Stack<Integer> s =new Stack<>();
+		s.push(6);
+	}
+
+}

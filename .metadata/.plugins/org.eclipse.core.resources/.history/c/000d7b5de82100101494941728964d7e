@@ -1,0 +1,38 @@
+package Collectionsprg;
+
+import java.util.*;
+
+public class Queueprgs {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//Peek()
+		//add() to add values
+		//fifo - First-in-First-out
+		//like a line model or Standing in a Queue
+		//Priority Queue
+		
+		PriorityQueue<Integer> q = new PriorityQueue<>();
+		
+		q.add(1);
+		q.add(2);
+		q.add(3);
+		
+		Iterator it = q.iterator();
+		
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		
+		System.out.println("Poll = "+q.poll());
+		
+		System.out.println("After Poll");
+		Iterator it1 = q.iterator();
+		while(it1.hasNext()) {
+			System.out.println(it1.next());
+		}
+		
+	}
+
+}

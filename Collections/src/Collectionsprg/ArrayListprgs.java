@@ -34,14 +34,19 @@ public class ArrayListprgs {
 		 System.out.println("Size : "+a1.size());
 		 
 		 
-		 //add
-		 //addall
-		 //get
-		 //remove
-		 //set
+		 //add - add the values by pushing the previous values down
+		 //addall - is used to add the all values of a object  in next next index
+		 //get - to the values of ArrayList by the index
+		 //remove - remove the values by index
+		 //set  - replace the value
 		 //it allows duplicate value
 		 //it will allow null values
 		 //stores different types of data
+			//Non-synchronized
+			//it maintains insertion order 
+		 //sorting and searching faster
+		 //manipulation slow because to shift all the element when we add new element
+
 		 
 		
 	}
