@@ -1,0 +1,53 @@
+package Collectionsprg;
+import java.util.*;
+
+public class ArrayListprgs {
+	
+	public static void main(String args[]) {
+		List a1 =  new ArrayList();
+		
+		System.out.println("Adding");
+		a1.add(12);
+		a1.add("hi");
+		a1.add(34.4);
+		
+		System.out.println();
+		System.out.println("Getting");
+		
+		for(int i=0;i<a1.size();i++) {
+			System.out.println(a1.get(i));
+		}
+		 System.out.println();
+		 System.out.println("Inserting");
+		 
+		 a1.add(0, 3);
+		 System.out.println(a1.size());
+		 
+		 System.out.println();
+		 System.out.println("Removing");
+		 a1.remove(2);
+		 
+//			for(int i=0;i<a1.size();i++) {
+//				System.out.println(a1.get(i));
+//			}
+		 
+		 for(Integer v:a1) {
+			 System.out.println(v);
+		 }
+			
+		 System.out.println("Size : "+a1.size());
+		 
+		 
+		 //add
+		 //addall
+		 //get
+		 //remove
+		 //set
+		 //it allows duplicate value
+		 //it will allow null values
+		 //stores different types of data
+		 
+		
+	}
+
+}
